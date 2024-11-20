@@ -1,0 +1,34 @@
+body {
+    background-color: tan;
+    color: black;
+    font-family: 'Candara Light';
+    font-size: 18px;
+  }
+
+h2 {
+    margin-top: 10px;
+    font-style: bold;
+    text-align: center;
+}
+
+button {
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.form-label {
+    font-style: bold;
+}
+
+#pets {
+    display: flex;
+    justify-content: center;
+}
+
+.error {
+    background-color: rgb(255, 179, 179);
+    border: solid 1px red;
+  }
