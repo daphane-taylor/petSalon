@@ -14,7 +14,7 @@ function Pet(name,age,gender,breed,type,service){
     this.age=age;
     this.gender=gender;
     this.breed=breed;
-    this.breed=type;
+    this.type=type;
     this.service=service;
 }
 
@@ -50,7 +50,7 @@ function isValid(pet){
 
     if (pet.type == "") {
         validation = false;
-        inputType.classList.add("error")
+        inputType.classList.add("error");
     }
 
     if (pet.service == "") {
