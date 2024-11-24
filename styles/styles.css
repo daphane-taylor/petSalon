@@ -23,10 +23,12 @@ button {
     font-style: bold;
 }
 
+/*
 #pets {
     display: flex;
     justify-content: center;
 }
+    */
 
 .error {
     background-color: rgb(255, 179, 179);

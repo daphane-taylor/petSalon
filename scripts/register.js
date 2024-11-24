@@ -61,6 +61,10 @@ function isValid(pet){
     return validation; //boolean result
 }
 
+function deletePet() {
+    console.log("Delete Pet");
+}
+
 //register function 
 function register(){
     let inputName=document.getElementById("txtName").value;
@@ -80,7 +84,7 @@ function register(){
     if(isValid(newPet) == true) {
         //push the obj to the array
         pets.push(newPet);
-        displayPet();
+        displayRow();
         //clear an input: document.getElementById("txtName").value="";
         //display the obj on the console
         console.log(pets);
@@ -109,7 +113,7 @@ function init(){
     let pet3 = new Pet("Charlie",10,"Female","Torti","Cat","Daycare");
     pets.push(pet1,pet2,pet3);
 
-    displayPet();
+    displayRow();
 }
 
 window.onload=init;//wait to render the HTML
