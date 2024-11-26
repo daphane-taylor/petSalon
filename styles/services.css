@@ -1,0 +1,31 @@
+body {
+    background-color: #c5ecff;
+    color: black;
+    font-family: Tahoma;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+p {
+    line-height: 1;
+    font-size: 16px;
+}
+
+.form-container {
+    background: #ffffff;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+}
+
+input {
+    margin: 10px;
+}
+
+.errorText {
+    background-color: rgb(255, 179, 179);
+    border: solid 1px red;
+  }
